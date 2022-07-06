@@ -14,3 +14,4 @@ const listIngridient = document.querySelector("#ingredients");
     return li;
     });
   listIngridient.append(...addModLi);
+  console.log(listIngridient);

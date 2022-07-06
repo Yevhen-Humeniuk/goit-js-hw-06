@@ -7,8 +7,6 @@ console.log(`Number of categories: ${findLengdth.children.length}`);
 
 
 const findCategories = document.querySelectorAll(".item");
-
-
 for (const findCategory of findCategories) {
     const categoryName = findCategory.querySelector("h2");
     const categoryLengdth = findCategory.querySelector("ul")
